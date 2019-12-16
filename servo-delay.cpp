@@ -1,3 +1,5 @@
+//rather crude servo control, varing pulse width from 1ms to 2ms for a range of ~90 degrees
+
 #include <Arduino.h>
 
 void setup() {
