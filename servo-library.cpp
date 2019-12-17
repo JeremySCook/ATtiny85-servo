@@ -1,4 +1,13 @@
-//works when assigned to 1 MHz, problem at 8 MHz
+/* Sweep
+ by BARRAGAN <http://barraganstudio.com>
+ This example code is in the public domain.
+
+ modified 8 Nov 2013
+ by Scott Fitzgerald
+ http://www.arduino.cc/en/Tutorial/Sweep
+ 
+ Modified December 2019 by Jeremy S. Cook
+*/
 
 #include <Arduino.h>
 #include <Servo.h>
