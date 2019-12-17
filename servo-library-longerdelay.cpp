@@ -1,8 +1,19 @@
+/* Sweep
+ by BARRAGAN <http://barraganstudio.com>
+ This example code is in the public domain.
+
+ modified 8 Nov 2013
+ by Scott Fitzgerald
+ http://www.arduino.cc/en/Tutorial/Sweep
+ 
+ Modified December 2019 by Jeremy S. Cook
+ For use with ATtiny85 w/ VSCode and PlatformIO
+*/
+
 #include <Arduino.h>
 #include <Servo.h>
 
 Servo myservo;  // create servo object to control a servo
-// twelve servo objects can be created on most boards
 
 int pos = 0;    // variable to store the servo position
 
